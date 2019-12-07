@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index2/index",
+    "pages/logs/logs",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000fff",
+    "navigationBarTitleText": "懵懵的慧慧",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "HOME",
+        "iconPath": "icons/home.jpg",
+        "selectedIconPath": "icons/home_select.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "HISTORY",
+        "iconPath": "icons/日志.jpg",
+        "selectedIconPath": "icons/日志_select.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
